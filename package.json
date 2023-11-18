@@ -1,10 +1,13 @@
 {
+  "homepage": "https://rishikesh0586.github.io/Nike",
   "name": "nike-2-0",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-script build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
