@@ -1,0 +1,7 @@
+/* DarkModeToggle.css */
+.dark-mode {
+    --tw-bg-opacity: 1 !important; /* Override background opacity for dark mode */
+    background-color: #1a202c !important; /* Set your dark mode background color */
+    color: #fff !important; /* Set your dark mode text color */
+  }
+  
